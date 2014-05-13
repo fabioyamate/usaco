@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# easy way to run the code:
+#
+# run <task>
+#
+
+gcc $1.c -o bin/$1 -Wall && ./bin/${1} && cat $1.out
